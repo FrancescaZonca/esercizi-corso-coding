@@ -1,0 +1,9 @@
+saldo = 500 # Salo iniziale
+prelievo = float(input("Quanto vuoi prelevare?"))
+if prelievo > saldo:
+        print("saldo insufficiente!")
+else:
+            saldo -= prelievo
+            print(f"Prelievo effettuato! Nuovo saldo: {saldo:.2f}€")
+            
+               
